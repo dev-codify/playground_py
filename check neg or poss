@@ -1,0 +1,9 @@
+num_4 = int(input('   Enter your chosen number\n'))
+if num_4 > 0:
+    print(num_4, ' is a positive number')
+elif num_4 == 0:
+    print("zero")
+elif num_4 < 0:
+    print(num_4, ' is a negative number')
+else:
+    print('invalid number')
